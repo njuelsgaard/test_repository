@@ -1,0 +1,20 @@
+#!usr/bin/env python
+
+filepath = r"C:\Users\njuelsgaard\Desktop\SciCoder\SciCoder-2019-Keck\Data Files\sdss_spectra_links.txt"
+
+number_randoms = 20;
+import random
+
+f = open(filepath)
+
+urls = f. readlines()
+f.close()
+
+randurls = set()
+
+while len(randurls) < number_randoms:
+  randurls.add(random.choice(urls))
+
+print("\n"+"\n")
+for url in randurls:
+  print(url)
