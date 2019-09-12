@@ -27,7 +27,7 @@ To protect against this, this script will fail if the database is not found
 
 # Fill in database connection information here.
 sqlite_db = {
-	'name'	: './db.student_info' # this is the name of the file
+	'name'	: '.\db\student_info.db' # this is the name of the file
 }
 
 # For more options of SQLite connection strings, see:
